@@ -1,0 +1,120 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.nav li{
+    padding:6px;
+    margin: 4px;
+}
+.nav-link{
+    color: white;
+}
+.nav li a:hover{
+    background-color: orange;
+    border-radius: 10px;
+    color: lightgray;
+}
+.nav-li a:active{
+    background-color: orange;
+    color: white;
+}
+.bg{
+    background: url('/asset/image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 635px; 
+}
+.signup-container{
+  background-color: #fff;
+  margin: auto 180px;
+  padding: 20px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.form-group input{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px;
+}
+.form-group select{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px;
+}
+.form-group button{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+}
+.signup-btn{
+    background-color: orange;
+}
+.signup-btn:hover{
+    background-color: rgba(238, 120, 9, 0.89);
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer img{
+    border-radius: 23px;
+}
+.f-text{
+    text-align: center;
+}
+.footer ul li{
+    padding: 10px;
+}
+.footer ul li:hover{
+    background-color: orange;
+    color: white;
+}
+
+/* Contact-Us */
+.contact-form{
+	background-color: #942929;
+	width: 70%;
+	padding: 34px 34px;
+	border-radius: 15px;
+}
+
+/* Contact-Us-Captecha */
+
+/* About */
+.about-bg{
+	width: 1200px; 
+	height:700px;
+}
+.mission-text{
+	text-align: justify;
+}
+.card-discrip{
+	text-align: justify;
+}
+/* Feedback */
+.feed-form{
+    background-color: aqua;
+    width: 80%;
+    padding: 40px 40px;
+    border-radius: 20px;
+}
+.feed-btn{
+    width: 100%;
+}
+/* Developer */
+.developer{
+    color:#202020; 
+    font-family:'typo';
+     font-size:16px;
+}
+
