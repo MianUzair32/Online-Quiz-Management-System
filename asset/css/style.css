@@ -5,21 +5,43 @@ html,body{
     padding: 0px;
 }
 .nav li{
-    padding:6px;
-    margin: 4px;
+    padding:0px 6px;
+    margin:0px 4px;
 }
 .nav-link{
     color: white;
 }
+#nav img{
+    border-radius: 23px;
+}
 .nav li a:hover{
     background-color: orange;
     border-radius: 10px;
-    color: lightgray;
+    color: lightgray
 }
 .nav-li a:active{
     background-color: orange;
     color: white;
 }
+#nav-item li a{
+    padding: 6px 5px;
+    margin: 0px 10px;
+}
+.nav-btn{
+    /* background-color: orange;
+    color: white; */
+    border-radius: 10px;
+}
+.nav-btn:hover{
+    background-color: orange;
+    color: black;
+}
+#nav-item li a:hover{
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}
+
 .bg{
     background: url('../image/bg.jpg');
     background-position: center;
@@ -30,11 +52,18 @@ html,body{
 }
 .signup-container{
   background-color: #fff;
-  margin: auto 180px;
-  padding: 20px 20px;
+  margin: auto 140px;
+  padding: 20px 15px;
   border: 2px solid white;
   border-radius: 10px;
 }
+.signup-container{
+    min-height: 30%;
+    
+}
+ .form-group input,select,button{
+    height: 38px;
+  }
 .form-group input{
     width: 80%;
     border: 2px solid black;
@@ -51,17 +80,30 @@ html,body{
     width: 80%;
     border: 2px solid black;
     border-radius: 8px;
-    margin-top: 8px;
+    margin-top: 12px;
     padding: 8px;
+    margin-bottom: 15px;
 }
 .signup-btn{
     background-color: orange;
 }
 .signup-btn:hover{
-    background-color: rgba(238, 120, 9, 0.89);
+    border: 2px solid orange;
+    background-color: orange;
     color: white;
 }
-
+@media only screen and (max-width:768px){
+    .signup-container form{
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width:916px){
+    .signup-container form{
+        width: 100%;
+        display: block;
+    }
+}
 .footer{
     background-color: black;
     color: white;
@@ -72,17 +114,20 @@ html,body{
 .f-text{
     text-align: center;
 }
-.footer ul li{
-    padding: 10px;
+.footer ul li a{
+    padding: 15px;
+    color: white;
+    text-align: center;
 }
-.footer ul li:hover{
+.footer ul li a:hover{
     background-color: orange;
     color: white;
+    border-radius: 20px;
 }
 
 /* Contact-Us */
 .contact-form{
-	background-color: #942929;
+	background-color: whitesmoke;
 	width: 70%;
 	padding: 34px 34px;
 	border-radius: 15px;
@@ -92,8 +137,10 @@ html,body{
 
 /* About */
 .about-bg{
-	width: 1200px; 
-	height:700px;
+	width: 900px; 
+	height:600px;
+    margin-left: 110px;
+    margin-top: 20px;
 }
 .mission-text{
 	text-align: justify;
@@ -103,7 +150,7 @@ html,body{
 }
 /* Feedback */
 .feed-form{
-    background-color: aqua;
+    background-color: wheat;
     width: 80%;
     padding: 40px 40px;
     border-radius: 20px;
